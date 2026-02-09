@@ -200,7 +200,7 @@ class DingTalkChannel(BaseChannel):
             "msgKey": "sampleMarkdown",
             "msgParam": json.dumps({
                 "text": msg.content,
-                "title": "Nanobot Reply",
+                "title": "收到一条消息",
             }),
         }
 
